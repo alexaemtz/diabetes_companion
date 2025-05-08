@@ -1,7 +1,7 @@
 streamlit==1.44.1
 firebase_admin==6.7.0
 pillow==11.2.1
-protobuf==6.30.2
+protobuf==5.26.1
 pytz==2024.1
 streamlit==1.44.1
 google-generativeai==0.8.4
