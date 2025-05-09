@@ -18,8 +18,7 @@ other_restrictions = st.text_area("Otras restricciones dietéticas (si aplica)")
 allergies = st.text_area("¿Tiene alguna alergia o alergias? Si no, deje este campo en blanco.")
 type_of_food = st.multiselect("Tipo de comida preferida", ["Italiana", "Mexicana", "Americana", "Asiática", "Mediterránea", "Otras (especificar)"], placeholder="Seleccione una opción")
 another_type_of_food = st.text_area("Otro tipo de comida preferida (si aplica)")
-food_to_include = st.text_area("¿Qué tipo de alimentos le gustaría que incluyera este asistente virtual?", placeholder="""Puede incluir alimentos específicos, como frutas o verduras,
-                                o especificar una categoría de alimentos, como salsa, ensalada, etc. Si no tiene ninguna preferencia, deje este campo en blanco.""")
+food_to_include = st.text_area("¿Qué tipo de alimentos le gustaría que incluyera este asistente virtual? Puede incluir alimentos específicos o categorias de alimentos. Si no, deje este campo en blanco.")
 portion_size = st.text_area("¿Tiene alguna preferencia de tamaño de porción? Si no, deje este campo en blanco.")
 glucose_reading = st.number_input("¿Cuál fue su última lectura de glucosa (en mg/dL)? Este dato puede ayudar a personalizar mejor su sugerencia.", value=100)
 activity_level = st.selectbox("¿Cuál es su nivel de actividad física?", ["Sedentario", "Ligero", "Moderado", "Intenso"])
@@ -33,7 +32,8 @@ if sugerencias:
     Restricciones dietéticas: {', '.join(dietary_restrictions) + (f', {other_restrictions}' if other_restrictions else '')}
     Alergias: {allergies if allergies else 'Ninguna'}
     Tipo de comida: {', '.join(type_of_food) + (f', {another_type_of_food}' if another_type_of_food else '')}
-    Alimentos a incluir: {food_to_include if food_to_include else 'No proporcionado'}    
+    Alimentos a incluir: {food_to_include if food_to_include else 'No proporcionado'}
+    Porciones de alimentos: {portion_size if portion_size else 'No proporcionado'}
     Historial reciente de glucosa: {glucose_reading if glucose_reading else 'No proporcionado'}
     Nivel de actividad física: {activity_level}
     Número de comidas al día: {food_at_day}
