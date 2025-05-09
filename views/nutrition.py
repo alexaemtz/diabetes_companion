@@ -40,21 +40,21 @@ if sugerencias:
     Objetivos de rango de glucosa: {glucose_objective if glucose_objective else 'No especificado'}
     
     El plan de comidas debe ser saludable, equilibrado y adaptado a las restricciones dietéticas, preferencias alimentarias, alimentos a incluir, 
-    tamaños de porción de los alimentos,nivel de actividad física, historial de glucosa y objetivos de rango de glucosa.
+    tamaños de porción de los alimentos, nivel de actividad física, historial de glucosa y objetivos de rango de glucosa.
     El plan debe incluir una variedad de alimentos. Debe ser adecuado para controlar los niveles de glucosa en un paciente diabético.
     Incluye ideas de recetas específicas y considera las porciones adecuadas. Trata de solo dar las recetas. No des explicaciones complejas. 
-    Limita la respuesta a menos de 30 líneas de texto. El plan de comidas debe cubrir una semana, sin repetir sugerencias.
+    Limita la respuesta a menos de 40 líneas de texto. El plan de comidas debe cubrir una semana, sin repetir sugerencias.
     
     Procura ofrecer sugerencias económicas y fáciles de conseguir. Los precios deben estar en MXN y no incluir descuentos. 
     
     Formato de salida sugerido:
     **Día [Número]:**
     
-    * **Desayuno:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción] - [Precio aproximado]
-    * **Media Mañana:** [Nombre del snack] - [Descripción breve] - [Tamaño de porción] - [Precio aproximado]
-    * **Almuerzo:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción] - [Precio aproximado]
-    * **Media Tarde:** [Nombre del snack] - [Descripción breve] - [Tamaño de porción] - [Precio aproximado]
-    * **Cena:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción] - [Precio aproximado]
+    * **Desayuno:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible] - [Precio aproximado]
+    * **Media Mañana:** [Nombre del snack] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible] - [Precio aproximado]
+    * **Almuerzo:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible]] - [Precio aproximado]
+    * **Media Tarde:** [Nombre del snack] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible] - [Precio aproximado]
+    * **Cena:** [Nombre del plato] - [Descripción breve] - [Tamaño de porción en gramos o tazas, según sea posible]- [Precio aproximado]
     """
     
     try:
