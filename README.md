@@ -1,8 +1,8 @@
 # 🩺 Planificador Integral para Personas con Diabetes Tipo 2
 
 **Versión:** 1.0  
-**Desarrollador:** [Tu Nombre o Alias]  
-**Tecnologías:** Python · Streamlit · Gemini API · PDF Export · Firebase
+**Desarrollador:** Alexa Shettel Escalante Martínez / @alexaemtz
+**Tecnologías:** Python · Streamlit · Gemini API · Pandas · Firebase · Plotly
 
 ---
 
@@ -53,11 +53,12 @@ Esta aplicación web está diseñada para brindar **apoyo diario y personalizado
 
 | Herramienta          | Descripción                                |
 |----------------------|--------------------------------------------|
-| **Python**           | Lenguaje principal del backend              |
+| **Python**           | Lenguaje principal del backend             |
 | **Streamlit**        | Framework para construir la interfaz web   |
 | **Firebase**         | Autenticación de usuarios y base de datos  |
 | **Gemini API**       | IA para generación de texto e imágenes     |
-| **PDF Export**       | Generación de documentos con los planes    |
+| **Pandas**           | Generación de documentos con los planes    |
+| **Plotly**           | Visualización de gráficos históricos       |
 
 ---
 
