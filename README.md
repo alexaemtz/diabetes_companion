@@ -1,7 +1,7 @@
 # 🩺 Planificador Integral para Personas con Diabetes Tipo 2
 
 **Versión:** 1.0  
-**Desarrollador:** Alexa Shettel Escalante Martínez / @alexaemtz
+**Desarrollador:** Alexa Shettel Escalante Martínez / @alexaemtz  
 **Tecnologías:** Python · Streamlit · Gemini API · Pandas · Firebase · Plotly
 
 ---
