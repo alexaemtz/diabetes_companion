@@ -65,8 +65,8 @@ Esta aplicación web está diseñada para brindar **apoyo diario y personalizado
 ## 📦 Instalación Local (Desarrolladores)
 
 ```bash
-git clone https://github.com/tuusuario/diabetes-app.git
-cd diabetes-app
+git clone https://github.com/alexaemtz/diabetes_companion.git
+cd diabetes_companion
 pip install -r requirements.txt
 streamlit run app.py
 ```
